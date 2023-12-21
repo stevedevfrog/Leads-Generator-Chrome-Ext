@@ -9,8 +9,10 @@ saveInputBtn.addEventListener("click", function () {
     urlListEl.innerHTML = "" // Clear the list element from previous entries
 
     // Show URL list
+    let listItems = ""
     for (let i = 0; i < urlList.length; i++) {
-        urlListEl.innerHTML += "<li>" + urlList[i] + "</li>"
+        listItems += "<li>" + urlList[i] + "</li>"
     }
+    urlListEl.innerHTML = listItems
 })
 
