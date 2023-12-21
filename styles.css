@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: yellow;
+}
+
+#url-input-el {
+    margin-top: 10px;
+    width: 100%;
+    border: 2px solid #5f9341;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+#save-input-btn {
+    margin-top: 10px;
+    background-color: #5f9341;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+}
